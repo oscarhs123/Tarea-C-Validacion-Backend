@@ -618,3 +618,4 @@
 0:0:0:0:0:0:0:1 - - [16/Oct/2023:12:17:56 -0600] "POST /myApp/ValidacionFormulario HTTP/1.1" 200 1970
 0:0:0:0:0:0:0:1 - - [16/Oct/2023:12:18:14 -0600] "POST /myApp/ValidacionFormulario HTTP/1.1" 200 1967
 0:0:0:0:0:0:0:1 - - [16/Oct/2023:12:18:38 -0600] "POST /myApp/ValidacionFormulario HTTP/1.1" 200 1967
+0:0:0:0:0:0:0:1 - - [16/Oct/2023:12:21:46 -0600] "GET /myApp/pagina/formularios/formulario-inv.jsp HTTP/1.1" 200 4697

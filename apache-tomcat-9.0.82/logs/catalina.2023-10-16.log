@@ -2340,3 +2340,7 @@
 16-Oct-2023 12:10:51.340 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/Tarea-C-Validacion-Backend/apache-tomcat-9.0.82/webapps/ROOT] has finished in [71] ms
 16-Oct-2023 12:10:51.347 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 16-Oct-2023 12:10:51.370 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2674] milliseconds
+16-Oct-2023 12:21:59.017 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Oct-2023 12:21:59.024 INFORMACIÓN [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+16-Oct-2023 12:21:59.088 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Oct-2023 12:21:59.103 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
