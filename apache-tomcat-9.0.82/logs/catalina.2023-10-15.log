@@ -1,0 +1,639 @@
+15-Oct-2023 19:47:03.004 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.82
+15-Oct-2023 19:47:03.011 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Oct 11 2023 13:15:08 UTC
+15-Oct-2023 19:47:03.011 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.82.0
+15-Oct-2023 19:47:03.012 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+15-Oct-2023 19:47:03.012 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      5.15.0-86-generic
+15-Oct-2023 19:47:03.012 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+15-Oct-2023 19:47:03.013 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /usr/lib/jvm/java-17-openjdk-amd64
+15-Oct-2023 19:47:03.013 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.8.1+1-Ubuntu-0ubuntu122.04
+15-Oct-2023 19:47:03.013 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Private Build
+15-Oct-2023 19:47:03.013 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 19:47:03.015 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 19:47:03.045 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Oct-2023 19:47:03.045 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+15-Oct-2023 19:47:03.045 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+15-Oct-2023 19:47:03.046 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Oct-2023 19:47:03.046 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Oct-2023 19:47:03.046 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/conf/logging.properties
+15-Oct-2023 19:47:03.046 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Oct-2023 19:47:03.046 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+15-Oct-2023 19:47:03.047 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Oct-2023 19:47:03.047 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Oct-2023 19:47:03.048 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+15-Oct-2023 19:47:03.048 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 19:47:03.048 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 19:47:03.048 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/temp
+15-Oct-2023 19:47:03.055 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+15-Oct-2023 19:47:03.821 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+15-Oct-2023 19:47:03.958 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [1492] milliseconds
+15-Oct-2023 19:47:04.078 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+15-Oct-2023 19:47:04.079 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+15-Oct-2023 19:47:04.101 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/docs] de la aplicación web
+15-Oct-2023 19:47:04.842 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/docs] has finished in [738] ms
+15-Oct-2023 19:47:04.844 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/examples] de la aplicación web
+15-Oct-2023 19:47:06.237 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/examples] has finished in [1.394] ms
+15-Oct-2023 19:47:06.238 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/host-manager] de la aplicación web
+15-Oct-2023 19:47:06.353 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/host-manager] has finished in [114] ms
+15-Oct-2023 19:47:06.354 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/manager] de la aplicación web
+15-Oct-2023 19:47:06.447 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/manager] has finished in [93] ms
+15-Oct-2023 19:47:06.448 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/ROOT] de la aplicación web
+15-Oct-2023 19:47:06.516 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/ROOT] has finished in [68] ms
+15-Oct-2023 19:47:06.523 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 19:47:06.572 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2613] milliseconds
+15-Oct-2023 19:49:06.830 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/pagina] de la aplicación web
+15-Oct-2023 19:49:06.958 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/pagina] has finished in [129] ms
+15-Oct-2023 19:50:17.571 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/pagina]
+15-Oct-2023 19:50:17.676 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/myApp] de la aplicación web
+15-Oct-2023 19:50:17.789 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/myApp] has finished in [112] ms
+15-Oct-2023 19:51:29.725 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 19:51:29.751 INFORMACIÓN [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+15-Oct-2023 19:51:29.803 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 19:51:29.819 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 19:51:33.137 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.82
+15-Oct-2023 19:51:33.147 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Oct 11 2023 13:15:08 UTC
+15-Oct-2023 19:51:33.148 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.82.0
+15-Oct-2023 19:51:33.148 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+15-Oct-2023 19:51:33.148 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      5.15.0-86-generic
+15-Oct-2023 19:51:33.149 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+15-Oct-2023 19:51:33.149 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /usr/lib/jvm/java-17-openjdk-amd64
+15-Oct-2023 19:51:33.149 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.8.1+1-Ubuntu-0ubuntu122.04
+15-Oct-2023 19:51:33.150 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Private Build
+15-Oct-2023 19:51:33.150 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 19:51:33.150 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 19:51:33.180 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Oct-2023 19:51:33.181 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+15-Oct-2023 19:51:33.181 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+15-Oct-2023 19:51:33.181 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Oct-2023 19:51:33.182 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Oct-2023 19:51:33.182 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/conf/logging.properties
+15-Oct-2023 19:51:33.182 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Oct-2023 19:51:33.183 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+15-Oct-2023 19:51:33.183 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Oct-2023 19:51:33.184 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Oct-2023 19:51:33.184 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+15-Oct-2023 19:51:33.185 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 19:51:33.185 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 19:51:33.186 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/temp
+15-Oct-2023 19:51:33.191 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+15-Oct-2023 19:51:33.780 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+15-Oct-2023 19:51:33.866 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [1168] milliseconds
+15-Oct-2023 19:51:33.947 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+15-Oct-2023 19:51:33.948 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+15-Oct-2023 19:51:33.966 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/docs] de la aplicación web
+15-Oct-2023 19:51:34.461 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/docs] has finished in [492] ms
+15-Oct-2023 19:51:34.462 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/examples] de la aplicación web
+15-Oct-2023 19:51:35.575 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/examples] has finished in [1.113] ms
+15-Oct-2023 19:51:35.576 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/host-manager] de la aplicación web
+15-Oct-2023 19:51:35.820 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/host-manager] has finished in [244] ms
+15-Oct-2023 19:51:35.822 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/manager] de la aplicación web
+15-Oct-2023 19:51:35.969 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/manager] has finished in [148] ms
+15-Oct-2023 19:51:35.970 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/myApp] de la aplicación web
+15-Oct-2023 19:51:36.081 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/myApp] has finished in [111] ms
+15-Oct-2023 19:51:36.082 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/ROOT] de la aplicación web
+15-Oct-2023 19:51:36.152 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/ROOT] has finished in [70] ms
+15-Oct-2023 19:51:36.160 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 19:51:36.183 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2316] milliseconds
+15-Oct-2023 19:53:10.233 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 19:53:10.239 INFORMACIÓN [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+15-Oct-2023 19:53:10.286 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 19:53:10.296 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 19:53:12.743 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.82
+15-Oct-2023 19:53:12.750 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Oct 11 2023 13:15:08 UTC
+15-Oct-2023 19:53:12.751 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.82.0
+15-Oct-2023 19:53:12.751 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+15-Oct-2023 19:53:12.751 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      5.15.0-86-generic
+15-Oct-2023 19:53:12.751 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+15-Oct-2023 19:53:12.752 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /usr/lib/jvm/java-17-openjdk-amd64
+15-Oct-2023 19:53:12.752 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.8.1+1-Ubuntu-0ubuntu122.04
+15-Oct-2023 19:53:12.753 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Private Build
+15-Oct-2023 19:53:12.753 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 19:53:12.753 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 19:53:12.779 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Oct-2023 19:53:12.779 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+15-Oct-2023 19:53:12.779 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+15-Oct-2023 19:53:12.779 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Oct-2023 19:53:12.780 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Oct-2023 19:53:12.780 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/conf/logging.properties
+15-Oct-2023 19:53:12.780 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Oct-2023 19:53:12.780 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+15-Oct-2023 19:53:12.780 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Oct-2023 19:53:12.780 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Oct-2023 19:53:12.780 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+15-Oct-2023 19:53:12.781 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 19:53:12.783 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 19:53:12.784 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/temp
+15-Oct-2023 19:53:12.792 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+15-Oct-2023 19:53:13.622 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+15-Oct-2023 19:53:13.684 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [1481] milliseconds
+15-Oct-2023 19:53:13.826 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+15-Oct-2023 19:53:13.827 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+15-Oct-2023 19:53:13.862 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/docs] de la aplicación web
+15-Oct-2023 19:53:14.517 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/docs] has finished in [652] ms
+15-Oct-2023 19:53:14.517 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/examples] de la aplicación web
+15-Oct-2023 19:53:15.832 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/examples] has finished in [1.315] ms
+15-Oct-2023 19:53:15.833 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/host-manager] de la aplicación web
+15-Oct-2023 19:53:15.964 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/host-manager] has finished in [131] ms
+15-Oct-2023 19:53:15.966 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/manager] de la aplicación web
+15-Oct-2023 19:53:16.066 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/manager] has finished in [100] ms
+15-Oct-2023 19:53:16.067 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/myApp] de la aplicación web
+15-Oct-2023 19:53:16.144 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/myApp] has finished in [77] ms
+15-Oct-2023 19:53:16.145 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/ROOT] de la aplicación web
+15-Oct-2023 19:53:16.229 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/ROOT] has finished in [83] ms
+15-Oct-2023 19:53:16.238 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 19:53:16.289 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2603] milliseconds
+15-Oct-2023 19:53:46.810 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/myApp]
+15-Oct-2023 19:53:46.861 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/pagina] de la aplicación web
+15-Oct-2023 19:53:47.035 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/pagina] has finished in [170] ms
+15-Oct-2023 19:54:17.106 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/myApp] de la aplicación web
+15-Oct-2023 19:54:17.192 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/myApp] has finished in [86] ms
+15-Oct-2023 20:34:46.758 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/myApp]
+15-Oct-2023 20:40:37.874 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/conf/tomcat-users.xml]
+15-Oct-2023 20:40:37.876 GRAVE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open El usuario de base de datos especificado [conf/tomcat-users.xml] no pudo ser encontrado
+15-Oct-2023 20:40:38.382 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto []
+15-Oct-2023 20:40:38.407 ADVERTENCIA [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Ha fallado el desregistro del conductor JDBC para la aplicación web [ROOT]
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1631)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1575)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1513)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:442)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5184)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:766)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1465)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1653)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+15-Oct-2023 20:40:38.919 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/examples]
+15-Oct-2023 20:40:38.955 ADVERTENCIA [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Ha fallado el desregistro del conductor JDBC para la aplicación web [examples]
+	java.lang.IllegalStateException: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:100)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:249)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:272)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:211)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:220)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1087)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1630)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1575)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1513)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:442)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5184)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:766)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1465)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1653)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:275)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:299)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:96)
+		... 30 more
+	Caused by: java.lang.reflect.InvocationTargetException
+		at java.base/jdk.internal.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:206)
+		... 33 more
+	Caused by: java.nio.file.NoSuchFileException: /media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar
+		at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+		at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+		at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)
+		at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1428)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:718)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:252)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:181)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:346)
+		... 38 more
+15-Oct-2023 20:40:39.479 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/host-manager]
+15-Oct-2023 20:40:39.483 ADVERTENCIA [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Ha fallado el desregistro del conductor JDBC para la aplicación web [host-manager]
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1631)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1575)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1513)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:442)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5184)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:766)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1465)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1653)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+15-Oct-2023 20:40:40.031 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/manager]
+15-Oct-2023 20:40:40.040 ADVERTENCIA [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Ha fallado el desregistro del conductor JDBC para la aplicación web [manager]
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1631)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1575)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1513)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:442)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5184)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:766)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1465)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1653)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+15-Oct-2023 20:40:40.594 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/docs]
+15-Oct-2023 20:40:40.599 ADVERTENCIA [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Ha fallado el desregistro del conductor JDBC para la aplicación web [docs]
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1631)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1575)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1513)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:442)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5184)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:766)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1465)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1653)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+15-Oct-2023 20:40:41.130 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/pagina]
+15-Oct-2023 20:40:41.132 GRAVE [Catalina-utility-1] org.apache.catalina.session.StandardManager.stopInternal Excepción descargando sesiones a almacenamiento persistente
+	java.io.FileNotFoundException: /media/oscar/DATOS/Tomcat/apache-tomcat-9.0.82/work/Catalina/localhost/pagina/SESSIONS.ser (No such file or directory)
+		at java.base/java.io.FileOutputStream.open0(Native Method)
+		at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+		at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+		at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+		at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:293)
+		at org.apache.catalina.session.StandardManager.unload(StandardManager.java:259)
+		at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:374)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5143)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:766)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1465)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1653)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+15-Oct-2023 20:40:41.140 ADVERTENCIA [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Ha fallado el desregistro del conductor JDBC para la aplicación web [pagina]
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1631)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1575)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1513)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:442)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5184)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:766)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1465)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1653)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+15-Oct-2023 20:40:56.088 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 20:40:56.124 INFORMACIÓN [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+15-Oct-2023 20:40:56.135 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 20:40:56.164 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 20:42:09.154 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.82
+15-Oct-2023 20:42:09.161 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Oct 11 2023 13:15:08 UTC
+15-Oct-2023 20:42:09.161 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.82.0
+15-Oct-2023 20:42:09.162 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+15-Oct-2023 20:42:09.162 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      5.15.0-86-generic
+15-Oct-2023 20:42:09.162 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+15-Oct-2023 20:42:09.162 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /usr/lib/jvm/java-17-openjdk-amd64
+15-Oct-2023 20:42:09.162 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.8.1+1-Ubuntu-0ubuntu122.04
+15-Oct-2023 20:42:09.163 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Private Build
+15-Oct-2023 20:42:09.163 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 20:42:09.164 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 20:42:09.192 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Oct-2023 20:42:09.193 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+15-Oct-2023 20:42:09.193 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+15-Oct-2023 20:42:09.194 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Oct-2023 20:42:09.194 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Oct-2023 20:42:09.195 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/conf/logging.properties
+15-Oct-2023 20:42:09.196 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Oct-2023 20:42:09.196 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+15-Oct-2023 20:42:09.197 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Oct-2023 20:42:09.197 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Oct-2023 20:42:09.198 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+15-Oct-2023 20:42:09.201 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 20:42:09.201 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 20:42:09.202 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/temp
+15-Oct-2023 20:42:09.206 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+15-Oct-2023 20:42:09.781 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+15-Oct-2023 20:42:09.880 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [1248] milliseconds
+15-Oct-2023 20:42:09.970 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+15-Oct-2023 20:42:09.971 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+15-Oct-2023 20:42:09.994 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/docs] de la aplicación web
+15-Oct-2023 20:42:10.589 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/docs] has finished in [592] ms
+15-Oct-2023 20:42:10.591 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/examples] de la aplicación web
+15-Oct-2023 20:42:12.038 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/examples] has finished in [1.447] ms
+15-Oct-2023 20:42:12.038 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/host-manager] de la aplicación web
+15-Oct-2023 20:42:12.131 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/host-manager] has finished in [93] ms
+15-Oct-2023 20:42:12.132 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/manager] de la aplicación web
+15-Oct-2023 20:42:12.227 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/manager] has finished in [94] ms
+15-Oct-2023 20:42:12.228 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/pagina] de la aplicación web
+15-Oct-2023 20:42:12.303 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/pagina] has finished in [75] ms
+15-Oct-2023 20:42:12.304 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/ROOT] de la aplicación web
+15-Oct-2023 20:42:12.371 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/ROOT] has finished in [67] ms
+15-Oct-2023 20:42:12.377 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 20:42:12.407 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2526] milliseconds
+15-Oct-2023 21:30:16.461 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/Carpeta sin título] de la aplicación web
+15-Oct-2023 21:30:16.583 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/Carpeta sin título] has finished in [101] ms
+15-Oct-2023 21:30:27.092 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Carpeta sin título]
+15-Oct-2023 21:30:27.654 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/pagina]
+15-Oct-2023 21:30:27.684 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/myApp] de la aplicación web
+15-Oct-2023 21:30:27.746 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/myApp] has finished in [62] ms
+15-Oct-2023 21:32:37.967 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Falló la recarga del contexto [/myApp]
+15-Oct-2023 21:32:37.968 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/myApp]
+15-Oct-2023 21:32:39.286 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+15-Oct-2023 22:34:58.757 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 22:34:58.779 INFORMACIÓN [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+15-Oct-2023 22:34:58.828 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 22:34:58.838 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 22:35:05.198 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.82
+15-Oct-2023 22:35:05.209 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Oct 11 2023 13:15:08 UTC
+15-Oct-2023 22:35:05.209 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.82.0
+15-Oct-2023 22:35:05.209 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+15-Oct-2023 22:35:05.209 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      5.15.0-86-generic
+15-Oct-2023 22:35:05.210 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+15-Oct-2023 22:35:05.210 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /usr/lib/jvm/java-17-openjdk-amd64
+15-Oct-2023 22:35:05.212 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.8.1+1-Ubuntu-0ubuntu122.04
+15-Oct-2023 22:35:05.212 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Private Build
+15-Oct-2023 22:35:05.212 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 22:35:05.212 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 22:35:05.240 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Oct-2023 22:35:05.240 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+15-Oct-2023 22:35:05.240 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+15-Oct-2023 22:35:05.240 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Oct-2023 22:35:05.240 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Oct-2023 22:35:05.241 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/conf/logging.properties
+15-Oct-2023 22:35:05.242 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Oct-2023 22:35:05.246 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+15-Oct-2023 22:35:05.248 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Oct-2023 22:35:05.248 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Oct-2023 22:35:05.248 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+15-Oct-2023 22:35:05.248 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 22:35:05.248 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 22:35:05.249 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/temp
+15-Oct-2023 22:35:05.254 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+15-Oct-2023 22:35:05.957 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+15-Oct-2023 22:35:06.033 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [1404] milliseconds
+15-Oct-2023 22:35:06.162 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+15-Oct-2023 22:35:06.162 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+15-Oct-2023 22:35:06.194 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/docs] de la aplicación web
+15-Oct-2023 22:35:06.938 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/docs] has finished in [735] ms
+15-Oct-2023 22:35:06.939 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/examples] de la aplicación web
+15-Oct-2023 22:35:09.186 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/examples] has finished in [2.248] ms
+15-Oct-2023 22:35:09.187 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/host-manager] de la aplicación web
+15-Oct-2023 22:35:09.352 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/host-manager] has finished in [164] ms
+15-Oct-2023 22:35:09.354 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/manager] de la aplicación web
+15-Oct-2023 22:35:09.525 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/manager] has finished in [170] ms
+15-Oct-2023 22:35:09.526 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/myApp] de la aplicación web
+15-Oct-2023 22:35:11.047 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/myApp] has finished in [1.521] ms
+15-Oct-2023 22:35:11.048 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/ROOT] de la aplicación web
+15-Oct-2023 22:35:11.118 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/ROOT] has finished in [69] ms
+15-Oct-2023 22:35:11.125 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 22:35:11.157 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [5123] milliseconds
+15-Oct-2023 22:36:24.677 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 22:36:24.684 INFORMACIÓN [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+15-Oct-2023 22:36:24.767 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 22:36:24.782 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 22:36:26.927 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.82
+15-Oct-2023 22:36:26.933 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Oct 11 2023 13:15:08 UTC
+15-Oct-2023 22:36:26.933 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.82.0
+15-Oct-2023 22:36:26.933 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+15-Oct-2023 22:36:26.934 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      5.15.0-86-generic
+15-Oct-2023 22:36:26.934 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+15-Oct-2023 22:36:26.934 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /usr/lib/jvm/java-17-openjdk-amd64
+15-Oct-2023 22:36:26.939 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.8.1+1-Ubuntu-0ubuntu122.04
+15-Oct-2023 22:36:26.940 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Private Build
+15-Oct-2023 22:36:26.940 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 22:36:26.940 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 22:36:26.954 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Oct-2023 22:36:26.956 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+15-Oct-2023 22:36:26.957 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+15-Oct-2023 22:36:26.957 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Oct-2023 22:36:26.957 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Oct-2023 22:36:26.957 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/conf/logging.properties
+15-Oct-2023 22:36:26.957 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Oct-2023 22:36:26.958 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+15-Oct-2023 22:36:26.958 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Oct-2023 22:36:26.958 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Oct-2023 22:36:26.961 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+15-Oct-2023 22:36:26.962 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 22:36:26.963 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 22:36:26.963 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/temp
+15-Oct-2023 22:36:26.969 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+15-Oct-2023 22:36:27.576 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+15-Oct-2023 22:36:27.628 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [1055] milliseconds
+15-Oct-2023 22:36:27.708 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+15-Oct-2023 22:36:27.708 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+15-Oct-2023 22:36:27.738 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/docs] de la aplicación web
+15-Oct-2023 22:36:28.684 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/docs] has finished in [942] ms
+15-Oct-2023 22:36:28.685 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/examples] de la aplicación web
+15-Oct-2023 22:36:30.298 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/examples] has finished in [1.613] ms
+15-Oct-2023 22:36:30.299 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/host-manager] de la aplicación web
+15-Oct-2023 22:36:30.425 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/host-manager] has finished in [126] ms
+15-Oct-2023 22:36:30.426 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/manager] de la aplicación web
+15-Oct-2023 22:36:30.524 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/manager] has finished in [98] ms
+15-Oct-2023 22:36:30.525 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/myApp] de la aplicación web
+15-Oct-2023 22:36:31.663 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/myApp] has finished in [1.137] ms
+15-Oct-2023 22:36:31.664 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/ROOT] de la aplicación web
+15-Oct-2023 22:36:31.787 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/ROOT] has finished in [122] ms
+15-Oct-2023 22:36:31.796 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 22:36:31.838 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [4209] milliseconds
+15-Oct-2023 22:38:11.785 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 22:38:11.789 INFORMACIÓN [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+15-Oct-2023 22:38:11.852 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 22:38:11.874 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 22:38:14.452 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.82
+15-Oct-2023 22:38:14.457 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Oct 11 2023 13:15:08 UTC
+15-Oct-2023 22:38:14.458 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.82.0
+15-Oct-2023 22:38:14.458 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+15-Oct-2023 22:38:14.458 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      5.15.0-86-generic
+15-Oct-2023 22:38:14.459 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+15-Oct-2023 22:38:14.459 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /usr/lib/jvm/java-17-openjdk-amd64
+15-Oct-2023 22:38:14.459 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.8.1+1-Ubuntu-0ubuntu122.04
+15-Oct-2023 22:38:14.464 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Private Build
+15-Oct-2023 22:38:14.464 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 22:38:14.464 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 22:38:14.481 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Oct-2023 22:38:14.483 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+15-Oct-2023 22:38:14.485 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+15-Oct-2023 22:38:14.486 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Oct-2023 22:38:14.486 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Oct-2023 22:38:14.489 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/conf/logging.properties
+15-Oct-2023 22:38:14.489 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Oct-2023 22:38:14.489 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+15-Oct-2023 22:38:14.489 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Oct-2023 22:38:14.489 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Oct-2023 22:38:14.490 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+15-Oct-2023 22:38:14.490 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 22:38:14.490 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 22:38:14.490 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/temp
+15-Oct-2023 22:38:14.498 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+15-Oct-2023 22:38:15.066 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+15-Oct-2023 22:38:15.112 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [1038] milliseconds
+15-Oct-2023 22:38:15.185 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+15-Oct-2023 22:38:15.185 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+15-Oct-2023 22:38:15.207 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/docs] de la aplicación web
+15-Oct-2023 22:38:15.790 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/docs] has finished in [581] ms
+15-Oct-2023 22:38:15.791 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/examples] de la aplicación web
+15-Oct-2023 22:38:17.046 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/examples] has finished in [1.255] ms
+15-Oct-2023 22:38:17.047 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/host-manager] de la aplicación web
+15-Oct-2023 22:38:17.147 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/host-manager] has finished in [100] ms
+15-Oct-2023 22:38:17.148 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/manager] de la aplicación web
+15-Oct-2023 22:38:17.253 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/manager] has finished in [104] ms
+15-Oct-2023 22:38:17.253 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/myApp] de la aplicación web
+15-Oct-2023 22:38:18.456 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/myApp] has finished in [1.203] ms
+15-Oct-2023 22:38:18.457 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/ROOT] de la aplicación web
+15-Oct-2023 22:38:18.531 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/ROOT] has finished in [74] ms
+15-Oct-2023 22:38:18.542 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 22:38:18.571 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [3458] milliseconds
+15-Oct-2023 22:39:56.461 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 22:39:56.465 INFORMACIÓN [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+15-Oct-2023 22:39:56.515 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 22:39:56.525 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 22:40:03.795 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.82
+15-Oct-2023 22:40:03.801 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Oct 11 2023 13:15:08 UTC
+15-Oct-2023 22:40:03.801 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.82.0
+15-Oct-2023 22:40:03.801 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+15-Oct-2023 22:40:03.802 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      5.15.0-86-generic
+15-Oct-2023 22:40:03.802 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+15-Oct-2023 22:40:03.802 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /usr/lib/jvm/java-17-openjdk-amd64
+15-Oct-2023 22:40:03.802 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.8.1+1-Ubuntu-0ubuntu122.04
+15-Oct-2023 22:40:03.802 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Private Build
+15-Oct-2023 22:40:03.802 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 22:40:03.803 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 22:40:03.850 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Oct-2023 22:40:03.851 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+15-Oct-2023 22:40:03.851 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+15-Oct-2023 22:40:03.851 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Oct-2023 22:40:03.851 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Oct-2023 22:40:03.853 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/conf/logging.properties
+15-Oct-2023 22:40:03.853 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Oct-2023 22:40:03.853 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+15-Oct-2023 22:40:03.853 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Oct-2023 22:40:03.853 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Oct-2023 22:40:03.853 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+15-Oct-2023 22:40:03.853 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 22:40:03.854 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82
+15-Oct-2023 22:40:03.854 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/temp
+15-Oct-2023 22:40:03.861 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+15-Oct-2023 22:40:04.431 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+15-Oct-2023 22:40:04.530 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [1136] milliseconds
+15-Oct-2023 22:40:04.601 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+15-Oct-2023 22:40:04.602 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+15-Oct-2023 22:40:04.620 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/docs] de la aplicación web
+15-Oct-2023 22:40:05.322 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/docs] has finished in [700] ms
+15-Oct-2023 22:40:05.323 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/examples] de la aplicación web
+15-Oct-2023 22:40:06.984 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/examples] has finished in [1.660] ms
+15-Oct-2023 22:40:06.985 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/host-manager] de la aplicación web
+15-Oct-2023 22:40:07.108 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/host-manager] has finished in [124] ms
+15-Oct-2023 22:40:07.110 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/manager] de la aplicación web
+15-Oct-2023 22:40:07.232 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/manager] has finished in [121] ms
+15-Oct-2023 22:40:07.232 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/myApp] de la aplicación web
+15-Oct-2023 22:40:08.505 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/myApp] has finished in [1.272] ms
+15-Oct-2023 22:40:08.506 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/ROOT] de la aplicación web
+15-Oct-2023 22:40:08.568 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/oscar/DATOS/TDI/Tomcat/apache-tomcat-9.0.82/webapps/ROOT] has finished in [61] ms
+15-Oct-2023 22:40:08.574 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Oct-2023 22:40:08.595 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [4063] milliseconds
+15-Oct-2023 22:51:50.564 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Falló la recarga del contexto [/myApp]
+15-Oct-2023 22:51:50.565 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/myApp]
+15-Oct-2023 22:51:50.783 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+15-Oct-2023 22:54:01.168 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Falló la recarga del contexto [/myApp]
+15-Oct-2023 22:54:01.170 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/myApp]
+15-Oct-2023 22:54:01.344 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
